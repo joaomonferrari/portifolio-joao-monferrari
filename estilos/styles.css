@@ -509,8 +509,8 @@ section {
 
     .configuracao__carreira {
         flex-direction: column;
-        padding-left: 1.5rem;
-        padding-right: 2.5rem;
+        padding-left: 1rem;
+        padding-right: 2rem;
     }
 
     .skills__quadro {
