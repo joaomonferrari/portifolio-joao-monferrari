@@ -97,6 +97,7 @@ body {
 section {
     /* height: 100vh; */
     display: flex;
+    /* justify-content: center; */
     align-items: center;
     /* flex-direction: column; */
     padding: 0;
@@ -123,7 +124,7 @@ section {
 .configuracao__home .home-content {
     display: flex;
     flex-direction: row;
-    /* justify-content: center; */
+    /* justify-content: right; */
     align-items: center;
     width: 100%;
 }
@@ -197,6 +198,7 @@ section {
     /* justify-content: center; */
     align-items: center;
     gap: 5rem;
+    padding: 0;
 }
 
 .configuracao__sobre .about__content .configuracao__imagem__sobre {
@@ -475,14 +477,40 @@ section {
 
     .section{
         flex-direction: column;
+        /* padding-bottom: 100rem; */
+    }
+
+    .configuracao__home{
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 
     .configuracao__home .text-content {
         text-align: center;
+        /* justify-content: center; */ 
+    }
+
+    .configuracao__sobre .about__content {
+        flex-direction: column;    
+        /* padding: 0.2rem;     */
+    }
+
+    .configuracao__sobre {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
+
+    .configuracao__imagem__sobre{
+        padding: 3rem;
+        padding-bottom: 1rem;
+        /* padding-left: 3rem;
+        padding-right: 5rem; */
     }
 
     .configuracao__carreira {
         flex-direction: column;
+        padding-left: 1.5rem;
+        padding-right: 2.5rem;
     }
 
     .skills__quadro {
@@ -527,8 +555,7 @@ section {
     }
 
     .configuracao__sobre .about__content {
-        flex-direction: column;
-        
+        flex-direction: column;        
     }
 
     .skills__logos {
