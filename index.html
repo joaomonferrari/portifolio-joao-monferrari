@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio João Monferrari</title>
+    <link rel="stylesheet" href="estilos/styles.css">
+    <link rel="shortcut icon" type="imagex/png" href="assets/Preview.ico">
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <div class="menu-hamburguer" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <nav class="cabecalho__menu">
+            <span class="cabecalho__menu__link"><a href="#principal">Home</a></span>
+            <span class="cabecalho__menu__link"><a href="#about">Sobre mim</a></span>
+            <span class="cabecalho__menu__link"><a href="#carreira">Carreira</a></span>
+            <span class="cabecalho__menu__link"><a href="#projetos">Projetos</a></span>
+            <span class="cabecalho__menu__link"><a href="#skills">Skills</a></span>
+        </nav>
+        <nav id="menu-hamburguer-aberto" class="menu-hamburguer-aberto" style="display: none;">
+            <a href="#principal" onclick="toggleMenu()">Home</a>
+            <a href="#about" onclick="toggleMenu()">Sobre mim</a>
+            <a href="#carreira" onclick="toggleMenu()">Carreira</a>
+            <a href="#projetos" onclick="toggleMenu()">Projetos</a>
+            <a href="#skills" onclick="toggleMenu()">Skills</a>
+        </nav>
+        
+    </header>
+
+    <main class="configuracao">
+        
+        <section class="configuracao__home" id="principal">
+            <div class="home-content">
+                <div class="text-content">
+                    <p class="text-1">Eu sou</p>
+                    <h1 class="slide-in-animation"><strong class="titulo-destaque"> João Monferrari</strong></h1>
+                    <p class="text-1"><span class="configuracao__home__subtitulo">Desenvolvedor e Bacharel em Engenharia de Computação</span></p>
+                    <div class="apresentacao__links"> 
+                        <a class="apresentacao__links__navegacao" href="https://github.com/joaomonferrari">
+                            <img src="./assets/github.png" alt="Logo GitHub">GitHub</a>
+                        <a class="apresentacao__links__navegacao" href="https://www.linkedin.com/in/jo%C3%A3o-monferrari-b278b2223/">
+                            <img src="./assets/linkedin.png" alt="Logo LinkedIn">LinkedIn</a> 
+                    </div>
+                </div>
+                <img class="configuracao__imagem" src="./assets/my-pic.png" alt="Foto João Monferrari">
+            </div>
+        </section>
+
+        <section class="configuracao__sobre" id="about">
+            <div class="about__content">
+                <img class="configuracao__imagem__sobre" src="./assets/my-pic.png" alt="Foto João Monferrari"> 
+                <div class="text-content-about">
+                    <h1 class="text-21">SOBRE MIM</h1> 
+                    <p class="text-2">Sou estudante de Engenharia de Computação na Pontifícia Universidade Católica de Goiás, onde adquiri
+                        proficiência em linguagens de programação, tais como C++ e SQL. Ao longo do curso, aprimorei minha
+                        lógica de programação e raciocínio lógico de maneira abrangente. Desde os primeiros anos na 
+                        universidade, contribuí no setor de suporte e manutenção de hardwares e softwares. Com o passar do
+                        tempo, ampliei minha experiência ao envolver-me no atendimento ao usuário e desempenhar diversas 
+                        tarefas, incluindo a manutenção de sites e a resolução de problemas variados. Busco constantemente 
+                        fortalecer minha base de conhecimento, utilizando plataformas como a Free Code Camp.
+                    </p>
+                    <p>Além disso, destaco minha considerável expertise no trabalho em equipe, evidenciando minha dedicação
+                        em todas as tarefas que me são propostas. Estou comprometido em contribuir de forma significativa para
+                        projetos e desafios, buscando constantemente aprimorar minhas habilidades e conhecimentos na área.
+                    </p>        
+                    
+                    <button class="curriculo__botao"><a href="./assets/curriculo_joao.pdf" download>Baixar Currículo em PDF</a></button>
+                </div>  
+            </div>
+        </section>
+
+        <section class="configuracao__carreira" id="carreira">
+            <div class="carreira__botoes">
+                <button class="carreira__botao" onclick="mostrarTexto('texto1')">Estudo</button>
+                <button class="carreira__botao" onclick="mostrarTexto('texto2')">Trabalho</button>
+            </div>
+            <div class="carreira__conteudo">
+                <div class="carreira__texto" id="texto1">
+                    <h2 class="title_carreira">Pontifícia Universidade Católica de Goiás</h2>
+                    <p class="text_carreira">O grande interesse e paixão pela tecnologia influenciou a escolha de me graduar na área, atualmente estou cursando o 10º período de Engenharia de Computação na PUC-Goiás. Foi na universidade que tive o primeiro contato com a programação e todo seu vasto campo, desenvolvi diversos projetos que exigiram um grande esforço e dedicação, mas como benefício me trouxeram um grande aprendizado.</p>
+                    <p class="text_carreira">Ainda na faculdade pude ver o quão vasto é o campo da tecnologia, desde a parte de projetos de software até a parte de testar e validar os mesmos, infraestrutura e segurança. Além disso, pude trabalhar muito com a parte de hardwares, especificamente montagem de circuitos, criação de projetos e estudo da arquitetura de computadores.</p>
+                    <p class="text_carreira">Contudo foi a programação que mais me chamou atenção e a que desenvolvi mais projetos, que exploravam tanto a parte de Back-end quanto a parte de Front-end, esta que tenho um apreço maior.</p>
+
+                    <h2 class="title_carreira">Cursos</h2>
+                    <p class="text_carreira">Com o intuito de aprimorar todo esse conhecimento adquirido na universidade, escolhi fazer cursos. Comecei utilizando a plataforma Free Code Camp, na qual aprendi um pouco sobre Design Responsivo.</p> 
+                    <p class="text_carreira">Mas foi por meio dos cursos da Alura que pude alavancar meus estudos e me capacitar ainda mais. Lá pude aprender o vasto campo do Front-end e reforçar minha base, além de como utilizar as diversas ferramentas e linguagens que temos hoje na área, sem esquecer dos frameworks.</p>
+                </div>
+                <div class="carreira__texto" id="texto2" style="display: none;">
+                    <h2 class="title_carreira">Construtora Monferrari Fernandes LTDA (2020 - 2022)</h2>
+                    <ul class="text_lista">
+                        <li>Realização da manutenção de hardwares e softwares que a empresa utilizava</li>
+                    </ul>
+                    <h2 class="title_carreira">Ministério Público do Estado de Goiás - MPGO (2023 - atualmente)</h2>
+                    <ul class="text_lista">
+                        <li class="conf_text_lista">Realização de atendimento ao usuário, auxiliando o mesmo na resolução de problemas e na utilização dos softwares que a instituição possui</li>
+                        <li class="conf_text_lista">Desenvolvimento de manuais para os usuários, para a utilização de softwares e hardwares utilizados</li>
+                        <li class="conf_text_lista">Realização da testagem de regras de negócio</li>
+                        <li class="conf_text_lista">Manutenção do site da instituição, em especial nos aspectos visuais, por meio de HTML, CSS e JavaScript</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="configuracao__projetos" id="projetos">
+            <div class="projeto">
+                <div class="projeto__conteudo">
+                    <img class="projeto__imagem" src="./assets/site-desenvolvimento.jpg" alt="Projeto 1">
+                    <button class="projeto__botao"><a href="#">Projeto em desenvolvimento</a></button>
+                </div>
+            </div>
+            <div class="projeto">
+                <div class="projeto__conteudo">
+                    <img class="projeto__imagem" src="./assets/site-desenvolvimento.jpg" alt="Projeto 2">
+                    <button class="projeto__botao"><a href="#">Projeto em desenvolvimento</a></button>
+                </div>
+            </div>
+            <div class="projeto">
+                <div class="projeto__conteudo">
+                    <img class="projeto__imagem" src="./assets/site-desenvolvimento.jpg" alt="Projeto 3">
+                    <button class="projeto__botao"><a href="#">Projeto em desenvolvimento</a></button>
+                </div>
+            </div>
+            <div class="projeto">
+                <div class="projeto__conteudo">
+                    <img class="projeto__imagem" src="./assets/site-desenvolvimento.jpg" alt="Projeto 4">
+                    <button class="projeto__botao"><a href="#">Projeto em desenvolvimento</a></button>
+                </div>
+            </div>
+            <div class="projeto">
+                <div class="projeto__conteudo">
+                    <img class="projeto__imagem" src="./assets/site-desenvolvimento.jpg" alt="Projeto 5">
+                    <button class="projeto__botao"><a href="#">Projeto em desenvolvimento</a></button>
+                </div>
+            </div>
+            <div class="projeto">
+                <div class="projeto__conteudo">
+                    <img class="projeto__imagem" src="./assets/site-desenvolvimento.jpg" alt="Projeto 6">
+                    <button class="projeto__botao"><a href="#">Projeto em desenvolvimento</a></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="configuracao__skills" id="skills">
+            <div class="skills__quadro">
+                <div class="skill">
+                    <span class="skill__nome">HTML</span>
+                    <div class="skill__nivel" style="--nivel: 5;"></div>
+                </div>
+                <div class="skill">
+                    <span class="skill__nome">CSS</span>
+                    <div class="skill__nivel" style="--nivel: 4;"></div>
+                </div>
+                <div class="skill">
+                    <span class="skill__nome">C++</span>
+                    <div class="skill__nivel" style="--nivel: 8;"></div>
+                </div>
+                <div class="skill">
+                    <span class="skill__nome">SQL</span>
+                    <div class="skill__nivel" style="--nivel: 3;"></div>
+                </div>
+                <div class="skill">
+                    <span class="skill__nome">JavaScript</span>
+                    <div class="skill__nivel" style="--nivel: 2;"></div>
+                </div>
+                <div class="skill">
+                    <span class="skill__nome">Python</span>
+                    <div class="skill__nivel" style="--nivel: 2;"></div>
+                </div>
+            </div>
+        
+            <div class="skills__logos">
+                <img src="./assets/html_logo.png" alt="HTML">
+                <img src="./assets/css-logo.png" alt="CSS">
+                <img src="./assets/cpp_logo.png" alt="C++">
+                <img src="./assets/sql_logo.png" alt="SQL">
+                <img src="./assets/js_logo.png" alt="JavaScript">
+                <img src="./assets/python-logo.png" alt="Python">
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>© João Monferrari 2024</p>
+
+        <div class="rodape__logos">
+            <a href="https://www.linkedin.com/in/jo%C3%A3o-monferrari-b278b2223/"><img src="assets/logo_linkedin.png" alt="Logo LinkedIn"></a>
+            <a href="https://github.com/joaomonferrari"><img src="assets/logo_github.png" alt="Logo GitHub"></a>
+            <a href="mailto:joaomonferna2002@gmail.com"><img src="assets/email_logo.png" alt="Logo Email"></a>
+        </div>
+
+    </footer>    
+
+    <script>
+        function mostrarTexto(id) {
+            var textos = document.querySelectorAll('.carreira__texto');
+            textos.forEach(function(texto) {
+                if (texto.id === id) {
+                    texto.style.display = 'block';
+                } else {
+                    texto.style.display = 'none';
+                }
+            });
+        }
+
+        function toggleMenu() {
+            var menu = document.getElementById('menu-hamburguer-aberto');
+            if (menu.style.display === 'none' || menu.style.display === '') {
+                menu.style.display = 'flex';
+            } else {
+                menu.style.display = 'none';
+            }
+        }
+    </script>
+
+</body>
+</html>
