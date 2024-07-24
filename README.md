@@ -1,6 +1,6 @@
 # Olá, bem vindo ao meu portfólio.
 
-![image](assets/my-pic.png)
+![image](assets/eu.png)
 
 ## Ferramentas utilizadas:
 
