@@ -166,7 +166,7 @@ section {
     color: var(--cor-terciaria);
     font-family: var(--fonte-terciaria);
     font-weight: 400;
-    background-color: black;
+    background-color: #03001C;
 }
 
 .apresentacao__links__navegacao:hover {
@@ -487,11 +487,11 @@ section {
 
     .configuracao__home .text-content {
         text-align: center;
-        /* justify-content: center; */ 
+        /* justify-content: center; */
     }
 
     .configuracao__sobre .about__content {
-        flex-direction: column;    
+        flex-direction: column;
         /* padding: 0.2rem;     */
     }
 
@@ -519,7 +519,7 @@ section {
     }
 
     .skills__logos {
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
     }
 
 }
@@ -555,7 +555,7 @@ section {
     }
 
     .configuracao__sobre .about__content {
-        flex-direction: column;        
+        flex-direction: column;
     }
 
     .skills__logos {
