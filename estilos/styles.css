@@ -305,6 +305,50 @@ section {
     display: block;
 }
 
+
+.premio__botao{
+    margin-top: 2rem;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    background-color: var(--cor-primaria);
+    border: none;
+    font-family: var(--fonte-terciaria);
+    border-radius: 8px;
+    border: 2px solid aqua;
+}
+
+.premio__botao a {
+    text-decoration: none;
+    color: var(--cor-hover-borda);
+}
+
+.premio__botao:hover {
+    background-color: var(--cor-hover);
+    color: var(--cor-secundaria);
+}
+
+.diploma__botao{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    background-color: var(--cor-primaria);
+    border: none;
+    font-family: var(--fonte-terciaria);
+    border-radius: 8px;
+    border: 2px solid aqua; 
+}
+
+.diploma__botao a {
+    text-decoration: none;
+    color: var(--cor-hover-borda);
+}
+
+.diploma__botao:hover {
+    background-color: var(--cor-hover);
+    color: var(--cor-secundaria);
+}
+
 /*Configurações do Projetos*/
 
 .configuracao__projetos {
@@ -562,3 +606,4 @@ section {
         margin-bottom: 2rem;
     }
 }
+
